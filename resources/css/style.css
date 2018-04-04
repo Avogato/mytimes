@@ -1,0 +1,132 @@
+.top-bar {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.top-logo {
+  display: flex;
+}
+
+.top-logo-text {
+  display: flex;
+  color: MediumAquamarine;
+  padding-left: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+
+
+.column-large {
+  width: 630px;
+  display: flex;
+}
+
+.photo-one {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  background-image: url(../img-story-main.png);
+}
+
+.story-one {
+    border: 1px solid black;
+    display: flex;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.story-two {
+  border: 1px solid black;
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.photo-two {
+  display: flex;
+  border: 1px solid black;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background-image: url(../img-story-2.png);
+}
+
+  .story-four {
+    border: 1px solid black;
+    display: flex;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+  }
+
+  .photo-three {
+    display: flex;
+    border: 1px solid black;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-image: url(../img-story-3.png);
+  }
+
+  .column-medium {
+    width: 300px;
+    display: flex;
+  }
+
+  .story-medium-one {
+    border: 1px solid black;
+    display: flex;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+  }
+
+  .photo-medium {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    background-image: url(../img-story-1.png);
+  }
+
+    .story-medium-two {
+      border: 1px solid black;
+      display: flex;
+      font-family: Georgia;
+      font-size: 17px;
+      color: black;
+    }
+
+    .column-small {
+      width: 240px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .news-bite{
+      border: 1px solid black;
+      display: flex;
+      font-family: Georgia;
+      font-size: 17px;
+      color: black;
+    }
