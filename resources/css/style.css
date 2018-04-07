@@ -1,32 +1,59 @@
 .header {
   display: flex;
   flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
   align-items: center;
-  align-content: space-between;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  padding-bottom: 3px;
+  padding-bottom: 5px;
+  padding-top: 5px;
   border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  margin: auto;
 }
 
 .header-text {
   color: MediumAquamarine;
-  padding-left: 5px;
-  flex: 5;
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  flex: 2;
 }
 
-li {
+.header-list ul {
   list-style: none;
-  padding: 5px;
-  display: inline-block;
+  padding-left: 0;
+  padding-right: 20px;
   flex: 1;
 }
+
+.header-list ul li {
+  display: inline;
+  padding: 10px;
+}
+
+.header-list ul li a {
+ color: black;
+ }
+
+.header-list ul li a:hover {
+ color: black;
+ }
 
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 90px;
 }
 
 .column-large {
@@ -35,7 +62,8 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .photo-container {
@@ -44,6 +72,7 @@ li {
   display: flex;
   align-items: center;
 }
+
 .photo-container h1 {
   font-family: Georgia;
   font-weight: bold;
@@ -113,8 +142,6 @@ color: black;
   color: white;
   text-align: center;
   margin: 0;
-  text-align: center;
-
 }
 
 
@@ -123,7 +150,8 @@ color: black;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -154,6 +182,8 @@ color: black;
   width: 240px;
   display: flex;
   flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .news-bite h1 {
@@ -168,14 +198,64 @@ color: black;
   padding-left: 0;
 }
 .sidebar {
-border-bottom: 1px solid DimGray;
-color: DimGray;
-padding-left: 20px;
-padding-right: 0;
-padding-top: 10px;
-padding-bottom: 10px;
-font-family: Verdana;
-font-size: 12px;
-display: block;
+  border-bottom: 1px solid DimGray;
+  color: DimGray;
+  padding-left: 20px;
+  padding-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: Verdana;
+  font-size: 12px;
+  display: block;
+}
 
+.footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 150px;
+  position: relative;
+  top: 100px;
+
+}
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navbar-bottom ul{
+  text-align: center;
+  list-style: none;
+   margin: 0;
+}
+
+#navbar-bottom ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+#navbar-bottom ul li a {
+ color: black;
+ }
+
+#navbar-bottom ul li a:hover {
+ color: black ;
+ }
+
+.footer-text {
+  margin: 0;
+  width: 100%;
+  text-align: center;
 }
